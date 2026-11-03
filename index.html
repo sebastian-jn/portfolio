@@ -2,17 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sebastian Ruz Welker</title>
+        <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
+
 <body>
+  <header>
     <h1>Sebastian Ruz Welker</h1>
     <p>I am a senior at Liberty University studying Digital Marketing and Advertising. I am passionate about creating, developing, and refining products, programs, and ideas to be pragmatic and well-polished.
 In the summer of 2026, I was part of OneHope's Cultivate Internship Program, where I worked under the Collaborative Partnerships team. During my time at OneHope, I leveraged Claude Design to create prototype websites, played a role in the strategic development of a CRM ecosystem mapping tool, and developed a decision framework for building context-focused YouVersion reading plans in Africa. </p>
 
 <p>I am currently... </p>
-<p> Listening to: you were good to me, by Jeremy Zucker </p>
-<p> Playing: Soccer and Pickleball</p>
+<p> Listening to: Dusty Seats by Próxima Parada </p>
+<p> Playing: Soccer and Pickleball </p>
 <p> Learning: HTML, CSS, and JavaScript</p>
 <p>Let's connect to discuss UX/UI design, marketing, and strategic thinking!</p>
 
@@ -21,6 +24,7 @@ In the summer of 2026, I was part of OneHope's Cultivate Internship Program, whe
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button id="theme-toggle" type="button">Toggle dark mode</button>
   </header>
 
   <main>
@@ -31,15 +35,22 @@ In the summer of 2026, I was part of OneHope's Cultivate Internship Program, whe
 
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li>Portfolio website (in progress)</li>
-      </ul>
+      <article class="project">
+        <h3>InCommon Website</h3>
+        <p>Led the front-end design and build of a refreshed InCommon site, restructuring navigation, reordering the homepage flow, and adding a new Insights page in production-ready HTML/CSS (Created with Claude Design).</p>
+        <p class="tools">Skills: Claude Design, CRM mapping, research</p>
+      </article>
+      <article class="project">
+        <h3>YouVersion Africa</h3>
+        <p>Built the first content plan for YouVersion reading plans aimed at youth in Africa, drawing on scripture, an understanding of young African audiences, and content-design principles</p>
+      </article>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:srruzwelker@liberty.edu">srruzwelker@liberty.edy</a></p>
+      <p>Email: <a href="mailto:srruzwelker@liberty.edu">srruzwelker@liberty.edu</a></p>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>

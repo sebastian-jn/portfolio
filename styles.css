@@ -41,3 +41,38 @@ nav a {
         padding: 16px;
     }
 }
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.project h3 {
+    margin: 0 0 8px;
+}
+
+.tools {
+    color:#666;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+body.dark {
+    background: #121212;
+    color: #eee;
+}
+
+body.dark .project {
+    background: #1e1e1e;
+    border-color: #333
+}
+
+body.dark nav a {
+    color: #aaa;
+}
+
+body.dark nav a {
+    color: #8fb0ff;
+}
+
